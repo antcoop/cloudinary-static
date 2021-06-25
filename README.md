@@ -10,7 +10,7 @@
 - Once you have an account, navigate to the Dashboard and find the Account Details section. 
 - Underneathe Account Details will be your API credentials **Cloud name**, **API Key**, and **API Secret**. 
 - Then create a `.env` file in your root directory. 
-- Add your API creditials following the example below.
+- Add your API credentials following the example below.
 
 ```
 CLOUDINARY_NAME=account
