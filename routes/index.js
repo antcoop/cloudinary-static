@@ -19,9 +19,7 @@ router.post('/api/upload', upload, async (req, res) => {
   // Create the Gallery item
   const item = await db.Gallery.create(data);
   // Ensure it exists before return the result otherise send a 404
-  if (item) {
-    return res.json(item);
-  }
+  if (item) return res.json(item);
   return res.statusCode(404);
 });
 
