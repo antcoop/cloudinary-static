@@ -25,3 +25,7 @@ CLOUDINARY_SECRET=25242d7a-ef6b-4fdb-a14a-b41b3309f010
 ## Run Command
 
 `npm start`
+
+## Deployed URL
+
+https://cloudinary-static-demo.herokuapp.com/
