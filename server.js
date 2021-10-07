@@ -1,12 +1,12 @@
+require('dotenv').config();
 const path = require('path');
 const { existsSync, mkdirSync } = require('fs');
-require('dotenv').config();
 const express = require('express');
 const exphbs = require('express-handlebars');
 const routes = require('./routes');
 const db = require('./models');
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 const hbs = exphbs.create();
 
 // Restricts file size of images or any media uploaded to 10mb
